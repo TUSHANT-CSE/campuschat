@@ -23,5 +23,9 @@
   ],
   "author": "Tushant",
   "license": "ISC",
-  "description": "A responsive real-time campus chat application with public rooms and private invite-code study rooms."
+  "description": "A responsive real-time campus chat application with public rooms and private invite-code study rooms.",
+  "dependencies": {
+    "express": "5.3.0",
+    "socket.io": "4.8.4"
+  }
 }
