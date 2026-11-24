@@ -1,0 +1,27 @@
+{
+  "name": "campuschat",
+  "version": "1.0.0",
+  "private": true,
+  "main": "chat-server.js",
+  "scripts": {
+    "start": "node chat-server.js",
+    "dev": "node --watch chat-server.js",
+    "start:all": "node start.js",
+    "start:classroom": "node server.js",
+    "test": "node --test tests/server.test.js",
+    "check": "node --check chat-server.js && node --check public/app.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "chat",
+    "socket.io",
+    "express",
+    "real-time",
+    "student-project"
+  ],
+  "author": "Tushant",
+  "license": "ISC",
+  "description": "A responsive real-time campus chat application with public rooms and private invite-code study rooms."
+}
